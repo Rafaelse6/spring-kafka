@@ -1,2 +1,12 @@
-package com.rafaelsantos.paymentservice.resources;public class PaymentResource {
+package com.rafaelsantos.paymentservice.resources;
+
+import com.rafaelsantos.paymentservice.model.Payment;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+public interface PaymentResource {
+
+    @PostMapping
+    ResponseEntity<Payment> payment(@RequestBody Payment payment);
 }
