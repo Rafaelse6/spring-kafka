@@ -10,5 +10,6 @@
     <td>Spring Boot</td>
     <td>Apache Kafka</td>
     <td>Docker</td>
+    <td>Maven</td>
   </tr>
 </table>
